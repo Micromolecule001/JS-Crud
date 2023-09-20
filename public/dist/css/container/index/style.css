@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  gap: 32px;
+}
+.form__title {
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: #ddd;
+}
+.form__content {
+  display: grid;
+  gap: 24px;
+}
+.form__field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.form__label {
+  font-size: 16px;
+}
+.form__input {
+  border: 2px solid #ddd;
+  padding: 8px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */

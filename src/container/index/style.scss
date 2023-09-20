@@ -1,0 +1,44 @@
+@use '../../lib/service.scss' as s;
+
+.form {
+    display: flex;
+    padding: s.space(4);
+    flex-direction: column;
+    gap: s.space(8);
+
+    &__title {
+        font-size: 20px;
+        font-weight: bold;
+        border-bottom: 2px solid #ddd;
+        padding-bottom: s.color('light');
+    }
+
+    &__content {
+        display: grid;
+        gap: s.space(6)
+    }
+
+    &__field {
+        display: flex;
+        flex-direction: column;
+        gap: s.space(2);
+    }
+
+    &__label {
+        font-size: 16px;
+    }
+
+    &__input {
+        border: 2px solid s.color('light');
+        padding: s.space(2);
+    }
+
+    
+}
+
+main {  
+    display: flex;
+    flex-direction: column;
+    gap: s.space(10);
+}
+
