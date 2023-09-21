@@ -1,0 +1,30 @@
+.list__container {
+    max-width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    // grid-template-columns: repeat(4, 1fr); 
+    gap: 25px; 
+    margin: 0 auto;
+}
+
+.product-card {
+    -webkit-box-shadow: 0px 0px 20px 7px rgba(189,189,189,1);
+    -moz-box-shadow: 0px 0px 20px 7px rgba(189,189,189,1);
+    box-shadow: 0px 0px 20px 7px rgba(189,189,189,1);
+    width: 300px;
+    padding: 24px;
+    border-radius: 12px;
+}
+
+.id {
+    color: grey;
+}
+
+.btn__wrapper {
+    max-width: fit-content;
+    margin: 20px auto;
+}
+
+.list__section {
+    margin: 30px;
+}

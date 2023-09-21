@@ -1,0 +1,30 @@
+<section>
+    <div class="container">
+        <h2 class="title">
+            Інформація про товар
+        </h2>
+            <form method="POST" action="/product-create">
+                <div class="form__container">
+                    <div class="input__wrapper">
+                        <label for="name" class="form__label"> Назва товару </label>
+                        <input type="text" name="name" class="form__input">
+                    </div>
+
+                    <div class="input__wrapper">
+                        <label for="price" class="form__label"> Ціна </label>
+                        <input type="text" name="price" class="form__input">
+                    </div>
+                </div>
+
+                <div class="wrapper">
+                    <label for="description" class="form__label"> Короткий опис товару </label>
+                    <input type="text" name="description" class="form__input">
+                </div>
+                
+                <div class="link__wrapper">
+                    <a href="/product-alert-success"><button class="form__button btn btn-primary"> Відправити </button></a>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>

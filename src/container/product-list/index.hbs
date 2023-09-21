@@ -1,0 +1,27 @@
+
+<section class="list__section">
+    {{#with data.products}}
+        {{#if isEmpty}}
+            <mark> List is empty </mark>
+        {{else}}
+            <div class="list__container">
+                {{#each list}}
+                    <div class="product-card">
+                        <h1 class="title__name"> {{name}} </h1>
+                        <p class="desctiption"> {{description}} </p>
+                        <p class="id">ID: {{id}} </p>
+
+                        <div class="wrapper">
+                            <h2 class="price"> {{price}} </h2>
+                            <a href="/product-edit?id={{id}}" class="update"> Редагувати </a>
+                        </div>
+                    </div>
+                {{/each}}
+            </div>
+        {{/if}}
+    {{/with}}
+
+    <div class="btn__wrapper">
+        <a class="back" href="/product-create"><button class="btn btn-danger"> <<< </button></a>
+    </div>
+</section> 
