@@ -177,7 +177,6 @@ class Product {
   }
 
   static verifyId(product, id) {
-    // console.log("Id check: ", product.id, id )
     return product.id === id;
   }
   
